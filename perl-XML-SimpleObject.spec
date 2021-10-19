@@ -23,10 +23,10 @@ space; this is a small and quick module, with easy and compact usage. See
 XML::SimpleObject::LibXML for the same interface for XML::LibXML.
 
 %prep
-%setup -q -n %{upstream_name}%{upstream_version}
+%autosetup -p1 -n %{upstream_name}%{upstream_version}
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 
 %make_build
 
@@ -38,5 +38,5 @@ XML::SimpleObject::LibXML for the same interface for XML::LibXML.
 
 %files
 %doc Changes README
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
 %perl_vendorlib/*
