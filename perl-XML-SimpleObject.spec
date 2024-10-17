@@ -8,7 +8,7 @@ Release:    2
 Summary:    Perl extension allowing a simple(r) object representation of an XML::LibXML DOM object
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/%{upstream_name}
+Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
 BuildArch: noarch
 BuildRequires: perl(ExtUtils::MakeMaker)
