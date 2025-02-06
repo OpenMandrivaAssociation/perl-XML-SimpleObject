@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Release:    3
 
 Summary:    Perl extension allowing a simple(r) object representation of an XML::LibXML DOM object
 License:    GPL+ or Artistic
