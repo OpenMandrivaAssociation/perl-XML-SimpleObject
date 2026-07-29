@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %{upstream_version}
-Release:    1
+Release:    2
 
 Summary:    Perl extension allowing a simple(r) object representation of an XML::LibXML DOM object
 License:    GPL+ or Artistic
@@ -24,7 +24,7 @@ space; this is a small and quick module, with easy and compact usage. See
 XML::SimpleObject::LibXML for the same interface for XML::LibXML.
 
 %prep
-%autosetup -p1 -n %{upstream_name}-%{upstream_version}
+%autosetup -p1 -n %{upstream_name}%{upstream_version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
